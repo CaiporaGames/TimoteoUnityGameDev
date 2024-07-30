@@ -12,21 +12,21 @@
   {
     position: absolute;
     top: 50%;
-    left: 50%;
+    left: 40%;
     transform: translate(-50%, -50%);
   }
   
   .baseImage 
   {
-    width: 280px; /* Adjust the size of the rotating circle */
-    height: 280px;
+    width: 400px; /* Adjust the size of the rotating circle */
+    height: 400px;
     z-index: 1; /* Ensure the base image is below the rotating circle */
   }
   
   .rotatingCircle 
   {
-    width: 300px; /* Adjust the size of the rotating circle */
-    height: 300px; /* Adjust the size of the rotating circle */
+    width: 500px; /* Adjust the size of the rotating circle */
+    height: 500px; /* Adjust the size of the rotating circle */
   }
 
   .baseImage

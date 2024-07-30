@@ -8,7 +8,6 @@
   background-color: #020103; 
 }
 
-
 .content 
 {
     display: flex;
@@ -20,11 +19,12 @@
     z-index: 2;
 }
 
-.image {
+.image 
+{
     // Optional: specify dimensions if needed
-    width: 500px; /* Adjust width as needed */
-    height: 500px; /* Adjust height as needed */
-    width: 50%;
+    width: 300px; /* Adjust width as needed */
+    height: 300px; /* Adjust height as needed */
+    width: 100%;
     margin:3%;
     // To ensure the image fits within the container
     display: flex;
@@ -34,9 +34,24 @@
     img {
         width: 100%;
         height: 100%;
-        border-radius: 50%; /* Makes the image round */
+        border-radius: 10%; /* Makes the image round */
         object-fit: cover; /* Ensures the image covers the area without distortion */
     }
+}
+
+.headerLogo
+{
+  position: absolute;
+  object-fit: cover;
+  z-index: -1;
+}
+
+.imagesContainer
+{
+    display: flex;
+    flex-direction: row;
+    margin-left: 5px;
+    width: 100%;
 }
 
 .textArea
@@ -48,19 +63,4 @@
     justify-content: flex-start;
     margin-left: 5%;
     z-index: 1;
-}
-
-h1
-{font-size: 60px;}
-
-p
-{
-    line-height: 25px;
-}
-
-.headerLogo
-{
-  position: absolute;
-  object-fit: cover;
-  z-index: -1;
 }

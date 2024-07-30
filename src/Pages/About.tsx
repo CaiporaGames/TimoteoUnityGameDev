@@ -9,7 +9,8 @@ import LineComponent from '../Components/LineComponent';
 import DotsComponent from '../Components/DotsComponent';
 import blurPoint from '../assets/Images/BlurPoint.png'; 
 
-const positions = [
+const positions = 
+[
     { top: '10px', right: '10px' },
     { top: '150%', left: '10px' },
     { top: '230%', right: '0%' },
