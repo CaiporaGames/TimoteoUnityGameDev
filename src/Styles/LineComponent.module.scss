@@ -1,0 +1,23 @@
+.line {
+    position: absolute; /* Allows for precise positioning on the page */
+    background-color: #333; /* Default color of the line */
+}
+
+.horizontal {
+    height: 2px; /* Height of the horizontal line */
+    width: 100%; /* Full width of the parent container */
+}
+
+.vertical {
+    width: 2px; /* Width of the vertical line */
+    height: 100%; /* Full height of the parent container */
+}
+
+.line-custom {
+    height: 2px; /* Default height */
+    width: 200px; /* Default width */
+    background-color: #666; /* Default color */
+    top: 50%; /* Vertical position from the top */
+    left: 50%; /* Horizontal position from the left */
+    transform: translate(-50%, -50%); /* Center alignment adjustment */
+}

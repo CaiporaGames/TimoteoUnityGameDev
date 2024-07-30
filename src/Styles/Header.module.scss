@@ -1,0 +1,74 @@
+/* Header.scss */
+
+.header 
+{
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+   //background-color: #020103;
+    background-color: rgba(2, 1, 3, 0);
+    color: white;
+    flex-direction: row;
+    
+    &__logo img {
+      height: 50px;
+    }
+  
+    &__nav ul {
+      list-style: none;
+      display: flex;
+      gap: 20px;
+    }
+  
+    &__nav a {
+      color: white;
+      text-decoration: none;
+      transition: color 0.3s;
+  
+      &:hover {
+        color: #ccc;
+      }
+    }
+  }
+
+  .headerNav ul
+  {
+    display: flex;
+    flex-direction: row;
+    gap: 50px;
+  }
+
+  .headerTitle
+  {
+    z-index:110;
+    font-size: 50px;
+  }
+
+  .liClass {
+    list-style: none;
+
+    a {
+        text-decoration: none; // Removes the underline from links
+        color: #ffffff;
+        font-size: 1em;
+        transition: transform 0.3s, color 0.3s, font-weight 0.3s;
+        -webkit-transition: transform 0.3s ease, color 0.3s ease, font-weight 0.3s ease; 
+
+        &:hover {
+            text-decoration: none;
+            font-weight: bold;
+            color: #660071;
+        }
+
+        &.active {
+            font-weight: bold;
+            color: #660071; // Change color for the active link
+            text-decoration: none; // Optional: underline the active link
+        }
+    }
+}
+
+li
+{
+  z-index: 99999;
+}

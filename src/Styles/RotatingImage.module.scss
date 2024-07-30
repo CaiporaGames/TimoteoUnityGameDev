@@ -1,0 +1,46 @@
+/* RotatingImage.scss */
+
+.rotatingImage 
+{
+    position: absolute;
+    width: 10px; /* Adjust the size as needed */
+    height: 10px; /* Adjust the size as needed */
+  }
+  
+  .baseImage,
+  .rotatingCircle 
+  {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+  
+  .baseImage 
+  {
+    width: 280px; /* Adjust the size of the rotating circle */
+    height: 280px;
+    z-index: 1; /* Ensure the base image is below the rotating circle */
+  }
+  
+  .rotatingCircle 
+  {
+    width: 300px; /* Adjust the size of the rotating circle */
+    height: 300px; /* Adjust the size of the rotating circle */
+  }
+
+  .baseImage
+  {
+    animation:rotate 20s linear infinite; /* Adjust animation duration and timing function */
+  }
+  
+  @keyframes rotate 
+  {
+    from {
+      transform: translate(-50%, -50%) rotate(0deg);
+    }
+    to {
+      transform: translate(-50%, -50%) rotate(360deg);
+    }
+  }
+  

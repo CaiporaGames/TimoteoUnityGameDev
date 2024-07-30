@@ -1,0 +1,19 @@
+.dotsContainer 
+{
+    display: flex; /* Align dots in a row */
+    flex-direction: row;
+    width: 10%;
+    gap: 10px; /* Space between dots */
+    margin-top: 10%;
+}
+
+.dot 
+{
+    width: 10px; /* Size of the dot */
+    height: 10px; /* Size of the dot */
+    background-color: #ffffff; /* Color of the dot */
+    border-radius: 50%; /* Makes the shape a circle */
+    transition: background-color 0.3s ease; /* Smooth color change */
+}
+
+

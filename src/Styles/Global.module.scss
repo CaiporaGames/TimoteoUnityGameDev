@@ -1,0 +1,131 @@
+/* Reset styles */
+body, html, .pageBody
+{
+    margin: 0;
+    padding: 0;
+    font-family: 'Arial', sans-serif;
+    font-family: 'Arial', sans-serif;
+    background-color: #020103; 
+    width: 100%;
+    height: 100%;
+  }
+  
+  /* Global styles */
+  .container 
+  {
+    width: 100%;
+    height: 100%;
+    max-width: 1200px;
+    margin-left: 5%;
+    align-content: flex-start;
+  }
+
+  .backgroundImage 
+  {
+    position: absolute;
+    top: -200px;
+    left: -200px;
+    width: 512px;
+    height: 512px;
+    background-image: url('../assets/Images/BlurPoint.png'); 
+    background-size: cover; 
+    background-position: center; 
+    z-index: 10; 
+  }
+
+  .myName
+  {
+    color:#CC00FF;
+    font-size: 60px;
+    font-weight: bold;
+  }
+
+  .iamText
+  {
+    font-size: 60px;
+    font-weight: bold;
+  }
+
+  .topRight {
+    position: absolute;
+    top: 50%; 
+    right: 15%; 
+  }
+
+  h1, h2, h3, h5, p
+  {
+    color:white;
+  }
+
+  .icons
+  {
+    display: flex;
+    width:100px;
+    justify-content: space-between;
+    gap:10px;
+    align-items: flex-end;
+    margin-top:100px;
+  }
+
+  .middleContent
+  {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-content: flex-start;
+    align-items: flex-start;
+  }
+
+  .content 
+  {
+    margin-top: 2px;
+    width: 50%;
+    height: 50%;
+    z-index: 1;
+  }
+
+  
+  .headerLogo
+  {
+    position: absolute;
+    top: 1%; 
+    left: 1%; 
+    object-fit: cover;
+    z-index: -1;
+  }
+
+  .iconLink {
+    display: inline-block; // Ensures the link takes up the full area of its container
+    width: 60px; // Adjust to fit the size of your SVG
+    height: 60px; // Adjust to fit the size of your SVG
+    transition: transform 0.3s ease, fill 0.3s ease; // Smooth transitions for hover effects
+
+    svg 
+    {
+      display: block; 
+        width: 100%;
+        height: 100%;
+        transition: transform 0.3s ease, fill 0.3s ease; // Smooth transitions for SVG
+    }
+
+    &:hover 
+    {
+        svg 
+        {
+            transform: translateY(-5px); // Moves the SVG up slightly on hover
+        }
+    }
+}
+
+.mainSetence
+{
+  line-height: 180%;
+}
+
+.dotNLine
+{
+  display: flex;
+  align-items: center;
+  align-content: center;
+  margin-bottom: 2%;
+}

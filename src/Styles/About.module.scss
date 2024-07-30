@@ -1,0 +1,68 @@
+.container 
+{
+  width: 100%;
+  height: 100%;
+  max-width: 1200px;
+  margin-left: 5%;
+  align-content: space-between;
+  background-color: #020103; 
+
+}
+
+
+.content 
+{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    height: 100%;
+    margin-bottom: 15%;
+    justify-content: space-between;
+    z-index: 2;
+
+}
+
+.image {
+    // Optional: specify dimensions if needed
+    width: 500px; /* Adjust width as needed */
+    height: 500px; /* Adjust height as needed */
+    width: 50%;
+    margin:3%;
+    // To ensure the image fits within the container
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    img {
+        width: 100%;
+        height: 100%;
+        border-radius: 50%; /* Makes the image round */
+        object-fit: cover; /* Ensures the image covers the area without distortion */
+    }
+}
+
+.textArea
+{
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    align-items: flex-start;
+    justify-content: flex-start;
+    margin-left: 5%;
+    z-index: 1;
+}
+
+h1
+{font-size: 60px;}
+
+p
+{
+    line-height: 25px;
+}
+
+.headerLogo
+{
+  position: absolute;
+  object-fit: cover;
+  z-index: -1;
+}
