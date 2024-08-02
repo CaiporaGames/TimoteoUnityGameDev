@@ -38,9 +38,9 @@ const Education: React.FC = () =>
                   <div className={education.headerLogo} style={{ top: positions[0].top, right: positions[0].right }}>
                     {<img src={blurPoint} alt="Logo" />}
                   </div>
-                      <h3>Southwest Bahia State University</h3>
-                      <p>Biology Degree | 2008 - 2010</p>
-                      <p>During my 2.5 years of study, I gained a profound understanding of cells,
+                      <h2>Southwest Bahia State University</h2>
+                      <h4 style={{ fontWeight: 'bold', color: 'white' }}>Biology Degree | 2008 - 2010</h4>
+                      <p>During my 2 years of study, I gained a profound understanding of cells,
                          proteins, sugars, and viruses. This knowledge continues to inform my dietary 
                          choices and overall approach to maintaining a healthy lifestyle. 
                       </p>
@@ -53,15 +53,17 @@ const Education: React.FC = () =>
                             {<img src={blurPoint} alt="Logo" />}
                         </div>
                         <h2>Federal University of Sergipe</h2>
-                        <p>Mathematics Bachelor Degree | 2014 - 2018</p>
-                        <p>Software Engineer Bachelor Degree | 2018 - 2022</p>
-                        <p>However, after 2.5 years, I realized my true passion lay elsewhere.
-                            Taking a leap of faith, I switched to a mathematics bachelor's degree at
-                            Universidade Federal de Sergipe, those were the most amazing 4 years of math life between friends and math theories.
+                        <h4 style={{ fontWeight: 'bold', color: 'white' }}>Mathematics Bachelor Degree | 2014 - 2018</h4>
+                        <p>After those 2 years realized my true passion lay elsewhere.
+                            Taking a leap of faith, I switched to a mathematics bachelor's. Those were the most 
+                            amazing 4 years of math life between friends and math theories.
                             It was during this time that I discovered my
-                            love for programming. Enchanted by the world of coding, I decided to pivot once more,
+                            love for programming.  
+                        </p>   
+                        <h4 style={{ fontWeight: 'bold', color: 'white' }}>Software Engineer Bachelor Degree | 2018 - 2022</h4>
+                        <p>Enchanted by the world of coding, I decided to pivot once more,
                             this time to Software Engineering at the same university. 
-                            I immersed myself in this course for 2.5 years, laying a solid 
+                            I immersed myself in this course for 4 years, laying a solid 
                             foundation in programming principles and practices. 
                         </p>                
                   </div>
@@ -86,10 +88,10 @@ const Education: React.FC = () =>
                     {<img src={blurPoint} alt="Logo" />}
                   </div>
                       <h2>Descomplica College</h2>
-                      <p>Software Engineer Bachelor Degree | 2024 - Current</p>
+                      <h4 style={{ fontWeight: 'bold', color: 'white' }}>Software Engineer Bachelor Degree | 2024 - Current</h4>
 
                       <p>My journey took an exciting turn when I had the opportunity to move to Portugal.
-                           There, I worked with Dark Cloud Company as a game developer, applying my skills
+                           There, I've worked with Dark Cloud Company as a game developer, applying my skills
                             to create immersive gaming experiences. My time at Dark Cloud was incredibly 
                             enriching, allowing me to hone my expertise in Unity, 2D/3D game design, UI,
                              AR, and multiplayer development.
@@ -104,7 +106,7 @@ const Education: React.FC = () =>
                           width="30%" 
                           height="2px" 
                           color="#fff" 
-                          top="470%" 
+                          top="300%" 
                           left="70%"
                       />
              </div>

@@ -1,0 +1,65 @@
+import React from 'react';
+import { useLocation, useParams } from 'react-router-dom';
+import { getProjectsByCollection } from '../DataControllers/dataController.tsx';
+import projectStyles from '../Styles/Project.module.scss';
+import globalStyles from '../Styles/Global.module.scss';
+import textParser from '../DataControllers/textParser.tsx';
+import LineComponent from '../Components/LineComponent.tsx';
+import DotsComponent from '../Components/DotsComponent.tsx';
+
+const Project: React.FC = () => 
+{
+  const { url } = useParams<{ url: string }>();
+  if (!url) return <div>URL not found</div>;
+  const location = useLocation();
+  const currentPath = location.pathname;
+  
+  const projects = getProjectsByCollection(currentPath.split('/').slice(-2)[0]);
+  console.log("id: ", projects[0]._id);
+  // Find the project with the matching URL
+  const project = projects.find((project) => project._id === url);
+  if (!project) return <div>Project not found</div>;
+  const defaultStyles = {
+    bold: { fontWeight: 'bold', color: '#c202db' },
+    italic: { fontStyle: 'italic', color: 'blue' },
+    underline: { textDecoration: 'underline' }
+  };
+  return (
+    <div className={projectStyles.container}>
+      <LineComponent 
+                    orientation="horizontal" 
+                    width="30%" 
+                    height="3px" 
+                    color="#fff" 
+                    top="25%" 
+                    left="0%"
+                    marginTop='0%'
+                    zIndex='10'
+                />
+          <h1>{project.title}</h1>
+      <div className={projectStyles.content}>
+          <img src={project.media} alt={project.title} />
+          <div className={projectStyles.body}>
+            <h3>About the project:</h3>
+            <p>{textParser(project.description, defaultStyles)}</p>
+            <a href={project.url}>Play the Game</a>
+      
+          </div>
+      </div>
+      <div className={globalStyles.dotNLine}>
+          <DotsComponent />
+          <LineComponent 
+                    orientation="horizontal" 
+                    width="30%" 
+                    height="2px" 
+                    color="#fff" 
+                    top="90%" 
+                    left="70%"
+                    marginTop='10%'
+                />
+       </div>
+    </div>
+  );
+};
+
+export default Project;

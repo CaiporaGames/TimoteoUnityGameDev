@@ -1,0 +1,46 @@
+.card {
+  display: flex;
+  align-items: center;
+  background-color: #800096;
+  border-radius: 8px;
+  overflow: hidden;
+  cursor: pointer;
+  transition: transform 0.2s, box-shadow 0.2s;
+  margin: 5%;
+  width: 300px; // Fixed width for consistency
+  height: 200px; // Fixed height for consistency
+  min-width: 300px; // Ensure minimum width
+  min-height: 200px; // Ensure minimum height
+  
+  &:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+  }
+
+  &.left {
+    flex-direction: row; // Image on the left
+  }
+
+  &.right {
+    flex-direction: row-reverse; // Image on the right
+  }
+}
+
+.cardImage {
+  width: 50%; // Adjust this as needed, but ensure it fits within the card's height
+  height: 100%;
+  object-fit: cover; // Ensure the image covers its container without distortion
+}
+
+.cardDescription {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 16px;
+  text-align: center;
+  font-size: 85%;
+  color: #ffffff;
+  width: 50%; // Adjust to fit alongside the image
+  font-weight: bolder;
+  box-sizing: border-box; // Ensure padding is included in the width
+}

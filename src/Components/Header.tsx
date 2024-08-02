@@ -18,6 +18,27 @@ const Header: React.FC = () => {
                     </li>
                     <li className={header.liClass}>
                         <NavLink 
+                            to="/work-experience" 
+                            className={({ isActive }) => isActive ? header.active : undefined}>
+                            Work Experience
+                        </NavLink>
+                    </li>
+                    <li className={header.liClass}>
+                        <NavLink 
+                            to="/projects" 
+                            className={({ isActive }) => isActive ? header.active : undefined}>
+                            Projects
+                        </NavLink>
+                    </li>
+                    <li className={header.liClass}>
+                        <NavLink 
+                            to="/blogs" 
+                            className={({ isActive }) => isActive ? header.active : undefined}>
+                            Blogs
+                        </NavLink>
+                    </li>
+                    <li className={header.liClass}>
+                        <NavLink 
                             to="/education" 
                             className={({ isActive }) => isActive ? header.active : undefined}>
                             Education

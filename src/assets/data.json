@@ -1,0 +1,37 @@
+{
+    "AIProjects": 
+    [
+      {
+        "_id": "AIAvatarGenerator",
+        "url": "https://simmer.io/@Caipora_Games/ai-avatar-generator-dall-e",
+        "title": "AI Avatar Generator",
+        "description": "The AI Avatar Generator is a {{bold|cutting-edge tool}} designed to create unique avatars using {{bold|OpenAI's DALL-E}} model within the Unity environment. This project aims to provide users with a seamless and interactive experience in generating personalized avatars through advanced AI technology.",
+        "media": "/Images/aiAvatarGenerator.gif"
+      },      
+      {
+        "_id": "2",
+        "url": "WebDevelopmentProjects",
+        "title": "Web Project 1",
+        "description": "This is a web development project.",
+        "media": "/Images/ai.jpg"
+      }
+    ],
+    "UIProjects": 
+    [
+      {
+        "_id": "1",
+        "url": "AIProjects",
+        "title": "AI Project 1",
+        "description": "This is an AI project.",
+        "media": "/Images/ai.jpg"
+      },
+      {
+        "_id": "2",
+        "url": "WebDevelopmentProjects",
+        "title": "Web Project 1",
+        "description": "This is a web development project.",
+        "media": "/Images/ai.jpg"
+      }
+    ]
+  }
+  

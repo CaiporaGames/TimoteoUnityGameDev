@@ -45,10 +45,7 @@ const About: React.FC = () =>
                     unyielding pursuit of knowledge and creativity. 
                 </p>
                 <h2>Early Life and Education</h2>
-                <p>Growing up in a humble family without a father figure, my strong and
-                    inspirational mother, despite her lack of formal education, always
-                    encouraged me to study and reach for my dreams. Following her advice, 
-                    I initially pursued a biology degree at Universidade Estadual do Sudoeste da Bahia.  
+                <p>Growing up in a humble family without a father figure, I was deeply inspired by my strong and resilient mother. Despite her lack of formal education, she always encouraged me to pursue my studies and chase my dreams. Her unwavering support and belief in the power of education motivated me to strive for more. By following her advice and dedicating myself to learning, I’ve been able to transform my surroundings and create better opportunities for myself. This journey has not only enriched my life but also shaped me into a person committed to making the most of every chance I get, paving the way for a brighter future.
                 </p>
             </div>
         </div>
@@ -58,15 +55,8 @@ const About: React.FC = () =>
             <div className={about.headerLogo} style={{ top: positions[1].top, left: positions[1].left }}>
               {<img src={blurPoint} alt="Logo" />}
             </div>
-                <h2>Transition to Programming</h2>
-                <p>However, after 2.5 years, I realized my true passion lay elsewhere.
-                Taking a leap of faith, I switched to a mathematics bachelor's degree at
-                 Universidade Federal de Sergipe, those were the most amazing 4 years of math life between friends and math theories.
-                  It was during this time that I discovered my
-                  love for programming. Enchanted by the world of coding, I decided to pivot once more,
-                   this time to Software Engineering at the same university. 
-                   I immersed myself in this course for 2.5 years, laying a solid 
-                   foundation in programming principles and practices. 
+                <h2>College Life</h2>
+                <p>College has been an exhilarating journey, a whirlwind of exploration and growth. Immersed in the dynamic mix of math, programming, and vibrant social scenes, I've learned to blend analytical skills with creativity. The late-night coding marathons, collaborative projects, and lively campus parties have all played a role in shaping my journey. These experiences have not only honed my technical skills but also expanded my understanding of human connections and professional development. Through the highs and lows, I’ve come to realize that true excellence comes from embracing both the challenges and the opportunities that come my way. As I continue to grow, I’m excited about the path ahead and the exceptional professional I am becoming.
                 </p>                
             </div>
             <div className={about.image}>
@@ -82,12 +72,8 @@ const About: React.FC = () =>
             <div className={about.headerLogo} style={{ top: positions[2].top, right: positions[2].right }}>
               {<img src={blurPoint} alt="Logo" />}
             </div>
-                <h2>Career Shift to Game Development</h2>
-                <p>My journey took an exciting turn when I had the opportunity to move to Portugal.
-                     There, I worked with Dark Cloud Company as a game developer, applying my skills
-                      to create immersive gaming experiences. My time at Dark Cloud was incredibly 
-                      enriching, allowing me to hone my expertise in Unity, 2D/3D game design, UI,
-                       AR, and multiplayer development.
+                <h2>Love Game Development</h2>
+                <p>My journey took an exciting turn when I had the opportunity to move to Portugal. There, I joined Dark Cloud Company as a game developer, where I applied my skills to create immersive gaming experiences. My time at Dark Cloud was incredibly enriching, allowing me to deepen my expertise in Unity, 2D/3D game design, UI, AR, and multiplayer development. This role not only fueled my passion for games but also showcased how my love for gaming and strong foundation in math and programming make me well-suited for tackling complex challenges. The experience solidified my belief that combining technical skills with creativity can lead to extraordinary outcomes in the world of game development.
                 </p>                
             </div>            
         </div>
@@ -97,13 +83,8 @@ const About: React.FC = () =>
             <div className={about.headerLogo} style={{ top: positions[3].top, right: positions[3].right }}>
               {<img src={blurPoint} alt="Logo" />}
             </div>
-                <h2>Freelance and Future Aspirations</h2>
-                <p>After 1.5 years with Dark Cloud, I transitioned to freelancing, where I continue to develop games, 
-                    always adhering to best practices for clean, extensible, and reusable code. My goal is to push 
-                    the boundaries of creativity and technology in every project I undertake.
-                    I am now actively seeking new opportunities to collaborate with a great company, where I can contribute my 
-                    skills and continue to grow as a game developer.
-                    Thank you for visiting my page and learning about my journey. Let's create something amazing together!
+                <h2>Future Aspirations</h2>
+                <p>After 1.5 years with Dark Cloud, I transitioned to freelancing, where I continue to develop games with a focus on clean, extensible, and reusable code. My goal is to push the boundaries of creativity and technology in every project I undertake. I am now actively seeking new opportunities to collaborate with a forward-thinking company where I can contribute my skills, grow as a game developer, and learn from a talented team. Thank you for visiting my page and learning about my journey. Let’s create something amazing together!
                 </p>                
             </div>
             <div className={about.image}>
