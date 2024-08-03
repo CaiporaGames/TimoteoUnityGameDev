@@ -16,10 +16,11 @@
   margin: 3%;
 }
 
-img
+.image
 {
-  width: 50%;
-  height: 50%;
+  width: 50%; /* Set a fixed width for all images */
+  height: 50%; /* Maintain the aspect ratio */
+  object-fit: cover;
 }
 
 p

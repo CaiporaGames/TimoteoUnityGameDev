@@ -36,13 +36,14 @@ const Project: React.FC = () =>
                     marginTop='0%'
                     zIndex='10'
                 />
-          <h1>{project.title}</h1>
+          <h2>{project.title}</h2>
       <div className={projectStyles.content}>
-          <img src={project.media} alt={project.title} />
+          <img className={projectStyles.image}src={project.media} alt={project.title} />
           <div className={projectStyles.body}>
-            <h3>About the project:</h3>
+            <h4>About the project:</h4>
             <p>{textParser(project.description, defaultStyles)}</p>
-            <a href={project.url}>Play the Game</a>
+            {project.url != "" ? <a href={project.url}>Play the Game</a> : <span></span>}
+            
       
           </div>
       </div>
@@ -53,7 +54,7 @@ const Project: React.FC = () =>
                     width="30%" 
                     height="2px" 
                     color="#fff" 
-                    top="90%" 
+                    top="110%" 
                     left="70%"
                     marginTop='10%'
                 />

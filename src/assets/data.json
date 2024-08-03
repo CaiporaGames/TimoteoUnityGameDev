@@ -2,35 +2,73 @@
     "AIProjects": 
     [
       {
-        "_id": "AIAvatarGenerator",
+        "_id": "1",
         "url": "https://simmer.io/@Caipora_Games/ai-avatar-generator-dall-e",
-        "title": "AI Avatar Generator",
+        "title": "🚀 AI Avatar Generator 🌟",
         "description": "The AI Avatar Generator is a {{bold|cutting-edge tool}} designed to create unique avatars using {{bold|OpenAI's DALL-E}} model within the Unity environment. This project aims to provide users with a seamless and interactive experience in generating personalized avatars through advanced AI technology.",
-        "media": "/Images/aiAvatarGenerator.gif"
+        "media": "/AIProjects/aiAvatarGenerator.gif"
       },      
       {
         "_id": "2",
-        "url": "WebDevelopmentProjects",
-        "title": "Web Project 1",
-        "description": "This is a web development project.",
-        "media": "/Images/ai.jpg"
+        "url": "",
+        "title": "🚀 Implementing chatGPT into a RPG turn-based game 🤖",
+        "description": " This is a 3D turn-based RPG that uses {{bold|chatGPT}} as AI to make decisions over enemy actions. I've learned how to harness the power of {{bold|AI (ChatGPT)}} to develop sophisticated enemy logic. This involved mastering the art of {{bold|sending}}, {{bold|receiving}}, and {{bold|processing}} responses using the ChatGPT API to create dynamic and unique battle systems.",
+        "media": "/AIProjects/aiRPGTurnBased.gif"
       }
     ],
+
+
     "UIProjects": 
     [
       {
         "_id": "1",
-        "url": "AIProjects",
-        "title": "AI Project 1",
-        "description": "This is an AI project.",
-        "media": "/Images/ai.jpg"
+        "url": "",
+        "title": "Draggable Cards",
+        "description": "Imagine playing a {{bold|card game}} where you {{bold|drag cards around}} and {{bold|match them}} based on their class. We can create this using Unity's UI Toolkit. In this project, we did learn how to drag cards inside a container and detect when they match using {{bold|special events}}. This is a {{bold|basic tool}} that can be used to develop various card games like {{bold|Match}} and {{bold|Memory}}.",
+        "media": "/UIProjects/draggableCards.gif"
+      }
+    ],
+
+
+    "ARProjects": 
+    [
+      {
+        "_id": "1",
+        "url": "",
+        "title": "AR Furniture - Retail Industry",
+        "description": "Retail is not only a {{bold|multi-trillion dollar industry}}, but one constantly looking for {{bold|innovations}}. {{bold|Augmented reality}} has offered this industry novel ways to {{bold|showcase their products and services}}, and also given developers new opportunities for different kinds of applications. Using {{bold|Unity}} and {{bold|AR Foundation}}, this explore {{bold|AR mechanics}} that allow users to manipulate {{bold|spawned furnitures}}, including {{bold|moving objects}}, {{bold|rotating}} them, and {{bold|modifying their appearance}}. This app that implements all these features.",
+        "media": "/ARProjects/ARFurnitureProject.gif"
+      }
+    ],
+
+
+    "EditorToolsProjects": 
+    [
+      {
+        "_id": "1",
+        "url": "",
+        "title": "Object Spawner",
+        "description": "This is a useful editor tool that {{bold|increase speed}} in the process {{bold|game design}}, {{bold|spawning objects}} into the world in random locations and rotations. It also allows object {{bold|surface detection}} for a better object positioning.",
+        "media": "/EditorToolsProjects/spawnerEditorTool.gif"
+      }
+    ],
+
+
+    "ShaderProjects": 
+    [
+      {
+        "_id": "1",
+        "url": "",
+        "title": "✂️ Clipping a Model with a Plane ✂️",
+        "description": "Clipping planes are essential for various applications, from {{bold|creating portals}} and {{bold|windows}} to {{bold|optimizing rendering}} by excluding unseen parts of models. This shader enhances visual {{bold|fidelity}} while {{bold|maintaining performance}}, which is crucial for immersive game experiences.",
+        "media": "/ShaderProjects/clippingShader.gif"
       },
       {
         "_id": "2",
-        "url": "WebDevelopmentProjects",
-        "title": "Web Project 1",
-        "description": "This is a web development project.",
-        "media": "/Images/ai.jpg"
+        "url": "",
+        "title": "Stencil Buffer: Playing with other dimensions",
+        "description": "Stencil shaders are like {{bold|magic tools}} that help decide where things get drawn on your screen. By marking areas with the stencil buffer and using these marks to decide where to draw, you can create {{bold|amazing effects}} like {{bold|portals}} and {{bold|windows}}. Portals are a {{bold|popular effect}} in games and simulations, providing the illusion of looking or stepping through one area into another seamlessly. Similar to portals, {{bold|windows}} can be created using stencil shaders to offer a {{bold|view into another part of the scene}} or an entirely different scene",
+        "media": "/ShaderProjects/DepthBuffer.gif"
       }
     ]
   }

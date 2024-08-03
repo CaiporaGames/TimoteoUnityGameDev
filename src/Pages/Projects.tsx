@@ -5,6 +5,7 @@ import projects from '../Styles/Projects.module.scss';
 import ai from '../assets/Images/ai.jpg';
 import ar from '../assets/Images/AR.jpg';
 import ui from '../assets/Images/UI.jpg';
+import editorTools from '../assets/Images/editorTools.jpeg';
 import shader from '../assets/Images/shader.jpg';
 import multiplayer from '../assets/Images/multiplayer.jpg';
 import LineComponent from '../Components/LineComponent';
@@ -32,13 +33,13 @@ const Projects: React.FC = () =>
       <Card
         media={ui}
         title="UI projects"
-        link="UIprojects"
+        link="UIProjects"
         imagePosition="right"
       />
       <Card
         media={ar}
         title="AR projects"
-        link="ARprojects"
+        link="ARProjects"
         imagePosition="left"
       />
       <Card
@@ -50,8 +51,14 @@ const Projects: React.FC = () =>
       <Card
         media={shader}
         title="Shaders projects"
-        link="Shadersprojects"
+        link="ShaderProjects"
         imagePosition="left"
+      />
+       <Card
+        media={editorTools}
+        title="Editor Tools"
+        link="EditorToolsProjects"
+        imagePosition="right"
       />
     </div>
   );
