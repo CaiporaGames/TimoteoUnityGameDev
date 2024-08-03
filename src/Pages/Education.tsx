@@ -30,23 +30,29 @@ const Education: React.FC = () =>
                           marginTop='0%'
                           zIndex='10'
                       />
-              <div className={education.content}>
-                  <div className={education.image}>
-                      {<img src={ufs} alt="Logo" />}
-                  </div>
-                  <div className={education.textArea}>
-                  <div className={education.headerLogo} style={{ top: positions[0].top, right: positions[0].right }}>
-                    {<img src={blurPoint} alt="Logo" />}
-                  </div>
-                      <h2>Southwest Bahia State University</h2>
-                      <h4 style={{ fontWeight: 'bold', color: 'white' }}>Biology Degree | 2008 - 2010</h4>
-                      <p>During my 2 years of study, I gained a profound understanding of cells,
-                         proteins, sugars, and viruses. This knowledge continues to inform my dietary 
-                         choices and overall approach to maintaining a healthy lifestyle. 
-                      </p>
-                  </div>
-              </div>
+                {/* Descomplica */}
+                <div className={education.content}>
+                    <div className={education.image}>
+                        {<img src={descomplica} alt="Logo" />}
+                    </div>
+                    <div className={education.textArea}>
+                    <div className={education.headerLogo} style={{ top: positions[0].top, right: positions[0].right }}>
+                        {<img src={blurPoint} alt="Logo" />}
+                    </div>
+                        <h2>Descomplica College</h2>
+                        <h4 style={{ fontWeight: 'bold', color: 'white' }}>Software Engineer Bachelor Degree | 2024 - Current</h4>
+
+                        <p>My journey took an exciting turn when I had the opportunity to move to Portugal.
+                            There, I've worked with Dark Cloud Company as a game developer, applying my skills
+                                to create immersive gaming experiences. My time at Dark Cloud was incredibly 
+                                enriching, allowing me to hone my expertise in Unity, 2D/3D game design, UI,
+                                AR, and multiplayer development.
+                        </p>                
+                    </div>            
+                </div>
+            
       
+                {/* Math and Programming */}
               <div className={education.content}>
                   <div className={education.textArea}>
                         <div className={education.headerLogo} style={{ top: positions[1].top, left: positions[1].left }}>
@@ -78,25 +84,24 @@ const Education: React.FC = () =>
                   </div>
 
               </div>
-      
+
+             
+              {/* Biology */}
               <div className={education.content}>
                   <div className={education.image}>
-                      {<img src={descomplica} alt="Logo" />}
+                      {<img src={ufs} alt="Logo" />}
                   </div>
                   <div className={education.textArea}>
                   <div className={education.headerLogo} style={{ top: positions[2].top, right: positions[2].right }}>
                     {<img src={blurPoint} alt="Logo" />}
                   </div>
-                      <h2>Descomplica College</h2>
-                      <h4 style={{ fontWeight: 'bold', color: 'white' }}>Software Engineer Bachelor Degree | 2024 - Current</h4>
-
-                      <p>My journey took an exciting turn when I had the opportunity to move to Portugal.
-                           There, I've worked with Dark Cloud Company as a game developer, applying my skills
-                            to create immersive gaming experiences. My time at Dark Cloud was incredibly 
-                            enriching, allowing me to hone my expertise in Unity, 2D/3D game design, UI,
-                             AR, and multiplayer development.
-                      </p>                
-                  </div>            
+                      <h2>Southwest Bahia State University</h2>
+                      <h4 style={{ fontWeight: 'bold', color: 'white' }}>Biology Degree | 2008 - 2010</h4>
+                      <p>During my 2 years of study, I gained a profound understanding of cells,
+                         proteins, sugars, and viruses. This knowledge continues to inform my dietary 
+                         choices and overall approach to maintaining a healthy lifestyle. 
+                      </p>
+                  </div>
               </div>
       
               <div className={globalStyles.dotNLine}>
